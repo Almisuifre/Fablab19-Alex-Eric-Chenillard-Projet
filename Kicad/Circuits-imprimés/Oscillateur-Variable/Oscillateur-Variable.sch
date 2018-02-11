@@ -1,0 +1,365 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x01 J1
+U 1 1 5A808F92
+P 1600 1500
+F 0 "J1" H 1600 1600 50  0000 C CNN
+F 1 "Conn_01x01" H 1600 1400 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 1600 1500 50  0001 C CNN
+F 3 "" H 1600 1500 50  0001 C CNN
+	1    1600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J2
+U 1 1 5A809029
+P 1600 2450
+F 0 "J2" H 1600 2550 50  0000 C CNN
+F 1 "Conn_01x01" H 1600 2350 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 1600 2450 50  0001 C CNN
+F 3 "" H 1600 2450 50  0001 C CNN
+	1    1600 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C2
+U 1 1 5A809051
+P 2350 1800
+F 0 "C2" H 2375 1900 50  0000 L CNN
+F 1 "100µF/25V" H 2375 1700 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 2388 1650 50  0001 C CNN
+F 3 "" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5A8090C2
+P 2350 2100
+F 0 "#PWR01" H 2350 1850 50  0001 C CNN
+F 1 "GND" H 2350 1950 50  0000 C CNN
+F 2 "" H 2350 2100 50  0001 C CNN
+F 3 "" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A809106
+P 1950 2500
+F 0 "#PWR02" H 1950 2250 50  0001 C CNN
+F 1 "GND" H 1950 2350 50  0000 C CNN
+F 2 "" H 1950 2500 50  0001 C CNN
+F 3 "" H 1950 2500 50  0001 C CNN
+	1    1950 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 1500 2    60   Input ~ 0
+9V
+$Comp
+L NE555 U1
+U 1 1 5A809181
+P 5050 3750
+F 0 "U1" H 4650 4100 50  0000 L CNN
+F 1 "NE555" H 5150 4100 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5050 3750 50  0001 C CNN
+F 3 "" H 5050 3750 50  0001 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J6
+U 1 1 5A8091E4
+P 7100 3150
+F 0 "J6" H 7100 3250 50  0000 C CNN
+F 1 "Conn_01x01" H 7100 3050 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 7100 3150 50  0001 C CNN
+F 3 "" H 7100 3150 50  0001 C CNN
+	1    7100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J7
+U 1 1 5A80925B
+P 7100 3550
+F 0 "J7" H 7100 3650 50  0000 C CNN
+F 1 "Conn_01x01" H 7100 3450 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 7100 3550 50  0001 C CNN
+F 3 "" H 7100 3550 50  0001 C CNN
+	1    7100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J8
+U 1 1 5A809299
+P 7100 3950
+F 0 "J8" H 7100 4050 50  0000 C CNN
+F 1 "Conn_01x01" H 7100 3850 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 7100 3950 50  0001 C CNN
+F 3 "" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5A8092F9
+P 2450 5050
+F 0 "J3" H 2450 5150 50  0000 C CNN
+F 1 "Conn_01x01" H 2450 4950 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 2450 5050 50  0001 C CNN
+F 3 "" H 2450 5050 50  0001 C CNN
+	1    2450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5A80932D
+P 2450 5250
+F 0 "J4" H 2450 5350 50  0000 C CNN
+F 1 "Conn_01x01" H 2450 5150 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 2450 5250 50  0001 C CNN
+F 3 "" H 2450 5250 50  0001 C CNN
+	1    2450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5A80935A
+P 2450 5450
+F 0 "J5" H 2450 5550 50  0000 C CNN
+F 1 "Conn_01x01" H 2450 5350 50  0000 C CNN
+F 2 "Raccordement-Filaires:Connect-1pin" H 2450 5450 50  0001 C CNN
+F 3 "" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 2750 5100 0    60   ~ 0
+Potard
+Text Notes 2750 5300 0    60   ~ 0
+Commun Potard
+Text Notes 2750 5500 0    60   ~ 0
+Potard
+$Comp
+L R R1
+U 1 1 5A8095A2
+P 6500 4550
+F 0 "R1" V 6580 4550 50  0000 C CNN
+F 1 "47K" V 6500 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 6430 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5A8096A6
+P 6050 4550
+F 0 "R2" V 6130 4550 50  0000 C CNN
+F 1 "56K" V 6050 4550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5980 4550 50  0001 C CNN
+F 3 "" H 6050 4550 50  0001 C CNN
+	1    6050 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 5A809756
+P 3900 4850
+F 0 "C1" H 3925 4950 50  0000 L CNN
+F 1 "10µF/25V" H 3925 4750 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 3938 4700 50  0001 C CNN
+F 3 "" H 3900 4850 50  0001 C CNN
+	1    3900 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 3050 2    60   Input ~ 0
+9V
+Text GLabel 4350 3950 0    60   Input ~ 0
+9V
+Text GLabel 2000 5050 0    60   Input ~ 0
+9V
+$Comp
+L GND #PWR03
+U 1 1 5A809A75
+P 1900 5500
+F 0 "#PWR03" H 1900 5250 50  0001 C CNN
+F 1 "GND" H 1900 5350 50  0000 C CNN
+F 2 "" H 1900 5500 50  0001 C CNN
+F 3 "" H 1900 5500 50  0001 C CNN
+	1    1900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A809D67
+P 5050 4300
+F 0 "#PWR04" H 5050 4050 50  0001 C CNN
+F 1 "GND" H 5050 4150 50  0000 C CNN
+F 2 "" H 5050 4300 50  0001 C CNN
+F 3 "" H 5050 4300 50  0001 C CNN
+	1    5050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A809DAA
+P 6700 4050
+F 0 "#PWR05" H 6700 3800 50  0001 C CNN
+F 1 "GND" H 6700 3900 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1500 2700 1500
+Wire Wire Line
+	2350 1650 2350 1500
+Connection ~ 2350 1500
+Wire Wire Line
+	2350 2100 2350 1950
+Wire Wire Line
+	1800 2450 1950 2450
+Wire Wire Line
+	1950 2450 1950 2500
+Wire Notes Line
+	2150 4900 3500 4900
+Wire Notes Line
+	3500 4900 3500 5650
+Wire Notes Line
+	3500 5650 2150 5650
+Wire Notes Line
+	2150 5650 2150 4900
+Wire Wire Line
+	5050 3350 5050 3050
+Wire Wire Line
+	5050 3050 5150 3050
+Wire Wire Line
+	4550 3950 4350 3950
+Wire Wire Line
+	2000 5050 2250 5050
+Wire Wire Line
+	1900 5500 1900 5450
+Wire Wire Line
+	1900 5450 2250 5450
+Wire Wire Line
+	4550 3750 1650 3750
+Wire Wire Line
+	1650 3750 1650 5250
+Wire Wire Line
+	1650 5250 2250 5250
+Wire Wire Line
+	6900 3950 6700 3950
+Wire Wire Line
+	6700 3950 6700 4050
+Wire Wire Line
+	5550 3550 6900 3550
+Wire Wire Line
+	5050 4150 5050 4300
+Wire Wire Line
+	5550 3950 5750 3950
+Wire Wire Line
+	5750 3950 5750 4550
+Wire Wire Line
+	3900 4550 5900 4550
+Wire Wire Line
+	3900 3550 3900 4700
+Wire Wire Line
+	3900 3550 4550 3550
+Connection ~ 5750 4550
+Wire Wire Line
+	6200 4550 6350 4550
+$Comp
+L GND #PWR06
+U 1 1 5A80A145
+P 3900 5150
+F 0 "#PWR06" H 3900 4900 50  0001 C CNN
+F 1 "GND" H 3900 5000 50  0000 C CNN
+F 2 "" H 3900 5150 50  0001 C CNN
+F 3 "" H 3900 5150 50  0001 C CNN
+	1    3900 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 4550
+Wire Wire Line
+	3900 5000 3900 5150
+Wire Wire Line
+	5550 3750 6250 3750
+Wire Wire Line
+	6250 3750 6250 4550
+Connection ~ 6250 4550
+Text GLabel 6900 4550 2    60   Input ~ 0
+9V
+Wire Wire Line
+	6650 4550 6900 4550
+Wire Notes Line
+	1300 1250 3000 1250
+Wire Notes Line
+	3000 1250 3000 2850
+Wire Notes Line
+	3000 2850 1300 2850
+Wire Notes Line
+	1300 2850 1300 1250
+Text Notes 1800 1200 0    60   ~ 0
+Alimentation
+Text GLabel 6600 3150 0    60   Input ~ 0
+9V
+Wire Wire Line
+	6600 3150 6900 3150
+Wire Notes Line
+	6400 2950 7450 2950
+Wire Notes Line
+	7450 2950 7450 4350
+Wire Notes Line
+	7450 4350 6400 4350
+Wire Notes Line
+	6400 4350 6400 2950
+Text Notes 6800 2900 0    60   ~ 0
+Sorties
+$EndSCHEMATC
