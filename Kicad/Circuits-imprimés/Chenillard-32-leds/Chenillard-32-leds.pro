@@ -1,4 +1,4 @@
-update=17/02/2018 20:45:31
+update=18/02/2018 17:54:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,7 +67,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-Eric-Chenillard-Projet/Kicad/Circuits-imprimés/Chenillard-32-leds/Tracés/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
