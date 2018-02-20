@@ -3,12 +3,12 @@
   (general
     (links 139)
     (no_connects 0)
-    (area 29.949999 34.949999 135.050001 175.050001)
+    (area 15.014999 28.8 182.214286 182.700001)
     (thickness 1.6)
     (drawings 7)
-    (tracks 688)
+    (tracks 689)
     (zones 0)
-    (modules 40)
+    (modules 44)
     (nets 58)
   )
 
@@ -85,11 +85,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-Eric-Chenillard-Projet/Kicad/Circuits-imprimés/Chenillard-32-leds/Tracés/))
+      (outputdirectory C:/Users/PORTABLE/Documents/GitProjets/Fablab19-Alex-Eric-Chenillard-Projet/Kicad/Circuits-imprimés/Chenillard-32-leds/Gerber/))
   )
 
   (net 0 "")
@@ -217,7 +217,7 @@
     (add_net RAZ)
   )
 
-  (module Connectors:DB25FC (layer F.Cu) (tedit 0) (tstamp 5A888BE4)
+  (module Connectors:DB25FC (layer F.Cu) (tedit 5A8C4F36) (tstamp 5A888BE4)
     (at 118.11 55.245 270)
     (descr "Connecteur DB25 femelle couche")
     (tags "CONN DB25")
@@ -225,7 +225,7 @@
     (fp_text reference J3 (at 16.51 -16.51 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DB25_Female_MountingHoles (at 16.51 -7.62 270) (layer F.Fab)
+    (fp_text value DB25_Female_MountingHoles (at 16.51 -7.62 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 43.18 -12.7) (end 43.18 1.27) (layer F.Fab) (width 0.1))
@@ -422,7 +422,7 @@
     )
   )
 
-  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5A88889B)
+  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A8C4EE5) (tstamp 5A88889B)
     (at 41.91 54.61 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -430,7 +430,7 @@
     (fp_text reference C2 (at 1.25 -2.61 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab)
+    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -461,7 +461,7 @@
     )
   )
 
-  (module Capacitors_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5A888969)
+  (module Capacitors_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 5A8C4EEE) (tstamp 5A888969)
     (at 49.53 55.88 90)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
@@ -469,7 +469,7 @@
     (fp_text reference C3 (at 2.5 -6.31 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 µF / 25 V" (at 2.5 6.31 90) (layer F.Fab)
+    (fp_text value "100 µF / 25 V" (at 2.5 6.31 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 2.5 0) (end -2.399357 -1.38) (angle 148.5) (layer F.SilkS) (width 0.12))
@@ -685,7 +685,7 @@
     )
   )
 
-  (module Capacitors_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5A888A37)
+  (module Capacitors_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 5A8C4F6D) (tstamp 5A888A37)
     (at 59.69 66.04 270)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
@@ -693,7 +693,7 @@
     (fp_text reference C4 (at 2.5 -6.31 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 µF / 25 V" (at 2.5 6.31 270) (layer F.Fab)
+    (fp_text value "100 µF / 25 V" (at 2.5 6.31 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 2.5 0) (end -2.399357 -1.38) (angle 148.5) (layer F.SilkS) (width 0.12))
@@ -909,7 +909,7 @@
     )
   )
 
-  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5A888A4C)
+  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A8C4F65) (tstamp 5A888A4C)
     (at 72.39 67.945 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -917,7 +917,7 @@
     (fp_text reference C5 (at 1.25 -2.61 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab)
+    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -948,7 +948,7 @@
     )
   )
 
-  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A889B1D) (tstamp 5A888A61)
+  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A8C4EF7) (tstamp 5A888A61)
     (at 60.96 54.61 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -956,7 +956,7 @@
     (fp_text reference C6 (at 1.25 -2.61 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab)
+    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -987,7 +987,7 @@
     )
   )
 
-  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5A888A76)
+  (module Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm (layer F.Cu) (tedit 5A8C4F06) (tstamp 5A888A76)
     (at 72.39 53.975 90)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.8mm width 2.6mm Capacitor")
@@ -995,7 +995,7 @@
     (fp_text reference C7 (at 1.25 -2.61 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab)
+    (fp_text value "100 nF" (at 1.25 2.61 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.65 -1.3) (end -0.65 1.3) (layer F.Fab) (width 0.1))
@@ -1179,7 +1179,7 @@
     )
   )
 
-  (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A888AE0)
+  (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F44) (tstamp 5A888AE0)
     (at 83.82 62.865 270)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -1187,7 +1187,7 @@
     (fp_text reference D2 (at 3.81 -2.06 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 3.81 2.06 270) (layer F.Fab)
+    (fp_text value 1N4148 (at 3.81 2.06 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 0 270) (layer F.Fab)
@@ -1222,7 +1222,7 @@
     )
   )
 
-  (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5A888AF9)
+  (module Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F3E) (tstamp 5A888AF9)
     (at 87.63 62.865 270)
     (descr "D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -1230,7 +1230,7 @@
     (fp_text reference D3 (at 3.81 -2.06 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 3.81 2.06 270) (layer F.Fab)
+    (fp_text value 1N4148 (at 3.81 2.06 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 0 270) (layer F.Fab)
@@ -1523,13 +1523,13 @@
     )
   )
 
-  (module Connectors:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 5A888B9E)
+  (module Connectors:PINHEAD1-2 (layer F.Cu) (tedit 5A8C4EDE) (tstamp 5A888B9E)
     (at 35.56 54.61 90)
     (path /5A881FDC)
     (fp_text reference J1 (at 1.27 -3.9 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x02 (at 1.27 3.81 90) (layer F.Fab)
+    (fp_text value Conn_01x02 (at 1.27 3.81 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.81 -1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.12))
@@ -1665,7 +1665,7 @@
     )
   )
 
-  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A888C31)
+  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F8F) (tstamp 5A888C31)
     (at 43.18 76.2)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm")
@@ -1673,7 +1673,7 @@
     (fp_text reference R1 (at 3.81 -1.86) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "10 K" (at 3.81 1.86) (layer F.Fab)
+    (fp_text value "10 K" (at 3.81 1.86) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.01 -0.8) (end 2.01 0.8) (layer F.Fab) (width 0.1))
@@ -1741,7 +1741,7 @@
     )
   )
 
-  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A888C5D)
+  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F85) (tstamp 5A888C5D)
     (at 50.8 78.74 180)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm")
@@ -1749,7 +1749,7 @@
     (fp_text reference R3 (at 3.81 -1.86 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "6.8 K" (at 3.81 1.86 180) (layer F.Fab)
+    (fp_text value "6.8 K" (at 3.81 1.86 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.01 -0.8) (end 2.01 0.8) (layer F.Fab) (width 0.1))
@@ -1779,7 +1779,7 @@
     )
   )
 
-  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A888C73)
+  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F59) (tstamp 5A888C73)
     (at 76.2 62.865 270)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm")
@@ -1787,7 +1787,7 @@
     (fp_text reference R4 (at 3.81 -1.86 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 K" (at 3.81 1.86 270) (layer F.Fab)
+    (fp_text value "100 K" (at 3.81 1.86 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.01 -0.8) (end 2.01 0.8) (layer F.Fab) (width 0.1))
@@ -1817,7 +1817,7 @@
     )
   )
 
-  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 5A888C89)
+  (module Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5A8C4F5F) (tstamp 5A888C89)
     (at 80.01 70.485 90)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm")
@@ -1825,7 +1825,7 @@
     (fp_text reference R5 (at 3.81 -1.86 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 K" (at 3.81 1.86 90) (layer F.Fab)
+    (fp_text value "100 K" (at 3.81 1.86 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 2.01 -0.8) (end 2.01 0.8) (layer F.Fab) (width 0.1))
@@ -2045,7 +2045,7 @@
     )
   )
 
-  (module Potentiometers:Potentiometer_Alps_RK163_Single_Vertical (layer F.Cu) (tedit 58826D68) (tstamp 5A888D1A)
+  (module Potentiometers:Potentiometer_Alps_RK163_Single_Vertical (layer F.Cu) (tedit 5A8C4F9B) (tstamp 5A888D1A)
     (at 34.29 82.55 180)
     (descr "Potentiometer, vertically mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GH/249GH Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148A/149A Single with mounting plates, Vishay/Spectrol 148/149 Double, Vishay/Spectrol 148A/149A Double with mounting plates, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16SV Single, Piher PC-16 Double, Piher PC-16 Triple, Piher T16H Single, Piher T16L Single, Piher T16H Double, Alps RK163 Single, http://www.alps.com/prod/info/E/PDF/Potentiometer/MetalShaft/RK163/RK163.PDF")
     (tags "Potentiometer vertical  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GH/249GH Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148A/149A Single with mounting plates  Vishay/Spectrol 148/149 Double  Vishay/Spectrol 148A/149A Double with mounting plates  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16SV Single  Piher PC-16 Double  Piher PC-16 Triple  Piher T16H Single  Piher T16L Single  Piher T16H Double  Alps RK163 Single")
@@ -2053,7 +2053,7 @@
     (fp_text reference RV1 (at 0 -15.2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "100 K" (at 0 5.2 180) (layer F.Fab)
+    (fp_text value "100 K" (at 0 5.2 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -6.7 -13.95) (end -6.7 3.95) (layer F.Fab) (width 0.1))
@@ -2097,7 +2097,7 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm_LongPads (layer F.Cu) (tedit 58CC8E33) (tstamp 5A888D36)
+  (module Housings_DIP:DIP-8_W7.62mm_LongPads (layer F.Cu) (tedit 5A8C4F77) (tstamp 5A888D36)
     (at 50.8 72.39 180)
     (descr "8-lead dip package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil LongPads")
@@ -2105,7 +2105,7 @@
     (fp_text reference U1 (at 3.81 -2.39 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value NE555 (at 3.81 10.01 180) (layer F.Fab)
+    (fp_text value NE555 (at 3.81 10.01 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 3.81 180) (layer F.Fab)
@@ -2149,7 +2149,7 @@
     )
   )
 
-  (module Housings_DIP:DIP-16_W7.62mm_LongPads (layer F.Cu) (tedit 58CC8E2D) (tstamp 5A888D84)
+  (module Housings_DIP:DIP-16_W7.62mm_LongPads (layer F.Cu) (tedit 5A8C4F0D) (tstamp 5A888D84)
     (at 95.25 48.895 270)
     (descr "16-lead dip package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil LongPads")
@@ -2157,7 +2157,7 @@
     (fp_text reference U3 (at 3.81 -2.39 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4017 (at 3.81 20.17 270) (layer F.Fab)
+    (fp_text value 4017 (at 3.81 20.17 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 8.89 270) (layer F.Fab)
@@ -2416,6 +2416,50 @@
     )
   )
 
+  (module Visserie-Trous-Modules:M3-Hole (layer F.Cu) (tedit 5A7F5D47) (tstamp 5A8C4D87)
+    (at 35 40)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M3-Hole (at 0.635 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Visserie-Trous-Modules:M3-Hole (layer F.Cu) (tedit 5A7F5D47) (tstamp 5A8C4D90)
+    (at 35 170)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M3-Hole (at 0.635 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Visserie-Trous-Modules:M3-Hole (layer F.Cu) (tedit 5A7F5D47) (tstamp 5A8C4D99)
+    (at 130 170)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M3-Hole (at 0.635 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Visserie-Trous-Modules:M3-Hole (layer F.Cu) (tedit 5A7F5D47) (tstamp 5A8C4DA7)
+    (at 110 50)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value M3-Hole (at 0.635 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
+  )
+
   (dimension 105 (width 0.3) (layer Eco1.User)
     (gr_text "105,000 mm" (at 82.5 181.35) (layer Eco1.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -2466,8 +2510,8 @@
   (segment (start 44.37 87.55) (end 44.45 87.63) (width 1) (layer B.Cu) (net 1) (tstamp 5A889D79))
   (segment (start 39.37 60.96) (end 39.37 64.77) (width 1) (layer B.Cu) (net 1))
   (segment (start 39.37 64.77) (end 43.18 64.77) (width 1) (layer B.Cu) (net 1) (tstamp 5A889D76))
-  (segment (start 80.01 62.865) (end 80.01 60.96) (width 1) (layer B.Cu) (net 2) (status 400000))
-  (segment (start 71.12 70.485) (end 76.2 70.485) (width 1) (layer B.Cu) (net 2) (tstamp 5A89AED3) (status 800000))
+  (segment (start 80.01 62.865) (end 80.01 60.96) (width 1) (layer B.Cu) (net 2))
+  (segment (start 71.12 70.485) (end 76.2 70.485) (width 1) (layer B.Cu) (net 2) (tstamp 5A89AED3))
   (segment (start 69.790019 69.155019) (end 71.12 70.485) (width 1) (layer B.Cu) (net 2) (tstamp 5A89AED2))
   (segment (start 69.790019 64.829981) (end 69.790019 69.155019) (width 1) (layer B.Cu) (net 2) (tstamp 5A89AECD))
   (segment (start 74.295 60.325) (end 69.790019 64.829981) (width 1) (layer B.Cu) (net 2) (tstamp 5A89AEC5))
@@ -2583,15 +2627,15 @@
   (segment (start 75.565 53.975) (end 76.835 52.705) (width 1) (layer F.Cu) (net 3) (tstamp 5A89AF17))
   (via (at 72.39 56.515) (size 2) (drill 1) (layers F.Cu B.Cu) (net 3))
   (segment (start 74.295 56.515) (end 72.39 56.515) (width 1) (layer F.Cu) (net 3))
-  (segment (start 72.39 53.975) (end 72.39 56.515) (width 1) (layer B.Cu) (net 3) (status 400000))
+  (segment (start 72.39 53.975) (end 72.39 56.515) (width 1) (layer B.Cu) (net 3))
   (segment (start 66.04 55.88) (end 66.675 56.515) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AF0A))
   (segment (start 66.04 55.88) (end 60.96 55.88) (width 1) (layer B.Cu) (net 3))
   (segment (start 66.675 56.515) (end 72.39 56.515) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AF0C))
-  (segment (start 72.39 65.445) (end 74.335 65.445) (width 1) (layer B.Cu) (net 3) (status 400000))
+  (segment (start 72.39 65.445) (end 74.335 65.445) (width 1) (layer B.Cu) (net 3))
   (segment (start 74.335 65.445) (end 74.93 66.04) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AE85))
   (segment (start 74.93 66.04) (end 90.805 66.04) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AE89))
   (segment (start 90.805 66.04) (end 95.25 61.595) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AE92))
-  (segment (start 95.25 61.595) (end 95.25 56.515) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AE98) (status 800000))
+  (segment (start 95.25 61.595) (end 95.25 56.515) (width 1) (layer B.Cu) (net 3) (tstamp 5A89AE98))
   (segment (start 72.39 65.445) (end 72.35 65.445) (width 1) (layer B.Cu) (net 3))
   (segment (start 72.39 156.21) (end 73.66 156.21) (width 1) (layer F.Cu) (net 3))
   (segment (start 74.295 155.575) (end 74.295 127) (width 1) (layer F.Cu) (net 3) (tstamp 5A895691))
@@ -2713,7 +2757,7 @@
   (segment (start 83.82 62.865) (end 83.82 64.77) (width 1) (layer B.Cu) (net 7))
   (segment (start 87.63 62.865) (end 87.63 64.77) (width 1) (layer B.Cu) (net 7))
   (segment (start 76.2 62.865) (end 76.2 64.135) (width 1) (layer B.Cu) (net 7))
-  (segment (start 92.71 61.595) (end 92.71 56.515) (width 1) (layer B.Cu) (net 7) (tstamp 5A8937DA) (status 800000))
+  (segment (start 92.71 61.595) (end 92.71 56.515) (width 1) (layer B.Cu) (net 7) (tstamp 5A8937DA))
   (segment (start 89.535 64.77) (end 92.71 61.595) (width 1) (layer B.Cu) (net 7) (tstamp 5A8937D9))
   (segment (start 76.835 64.77) (end 83.82 64.77) (width 1) (layer B.Cu) (net 7) (tstamp 5A8937D8))
   (segment (start 83.82 64.77) (end 87.63 64.77) (width 1) (layer B.Cu) (net 7) (tstamp 5A8937E3))
@@ -2819,18 +2863,19 @@
   (segment (start 36.195 121.285) (end 43.815 121.285) (width 1) (layer B.Cu) (net 15))
   (segment (start 48.26 125.73) (end 48.26 133.35) (width 1) (layer B.Cu) (net 15) (tstamp 5A894D60))
   (segment (start 43.815 121.285) (end 48.26 125.73) (width 1) (layer B.Cu) (net 15) (tstamp 5A894D55))
-  (segment (start 98.425 52.705) (end 113.03 52.705) (width 1) (layer B.Cu) (net 16))
+  (segment (start 118.11 55.245) (end 115.57 55.245) (width 1) (layer B.Cu) (net 16) (status 400000))
+  (segment (start 107.95 56.515) (end 114.3 56.515) (width 1) (layer B.Cu) (net 16) (tstamp 5A8C4E30))
   (segment (start 77.47 53.975) (end 78.74 52.705) (width 1) (layer B.Cu) (net 16) (tstamp 5A8937C0))
-  (segment (start 78.74 52.705) (end 98.425 52.705) (width 1) (layer B.Cu) (net 16) (tstamp 5A8937C1))
-  (segment (start 77.47 56.515) (end 77.47 53.975) (width 1) (layer B.Cu) (net 16))
-  (segment (start 115.57 55.245) (end 118.11 55.245) (width 1) (layer B.Cu) (net 16) (tstamp 5A8937CA))
-  (segment (start 113.03 52.705) (end 115.57 55.245) (width 1) (layer B.Cu) (net 16) (tstamp 5A8937C9))
-  (segment (start 116.455 58.035) (end 118.11 58.035) (width 1) (layer B.Cu) (net 17) (tstamp 5A8937CE))
-  (segment (start 112.395 53.975) (end 116.455 58.035) (width 1) (layer B.Cu) (net 17) (tstamp 5A8937CD))
-  (segment (start 98.425 53.975) (end 112.395 53.975) (width 1) (layer B.Cu) (net 17))
-  (segment (start 80.01 54.61) (end 80.645 53.975) (width 1) (layer B.Cu) (net 17) (tstamp 5A8937BC))
+  (segment (start 78.74 52.705) (end 104.14 52.705) (width 1) (layer B.Cu) (net 16) (tstamp 5A8937C1))
+  (segment (start 77.47 53.975) (end 77.47 56.515) (width 1) (layer B.Cu) (net 16))
+  (segment (start 104.14 52.705) (end 107.95 56.515) (width 1) (layer B.Cu) (net 16))
+  (segment (start 115.57 55.245) (end 114.3 56.515) (width 1) (layer B.Cu) (net 16) (tstamp 5A8C4E3B))
+  (segment (start 118.11 58.035) (end 107.565 58.035) (width 1) (layer B.Cu) (net 17))
+  (segment (start 80.01 54.61) (end 80.01 56.515) (width 1) (layer B.Cu) (net 17))
   (segment (start 80.645 53.975) (end 98.425 53.975) (width 1) (layer B.Cu) (net 17) (tstamp 5A8937BD))
-  (segment (start 80.01 56.515) (end 80.01 54.61) (width 1) (layer B.Cu) (net 17))
+  (segment (start 80.01 54.61) (end 80.645 53.975) (width 1) (layer B.Cu) (net 17) (tstamp 5A8937BC))
+  (segment (start 98.425 53.975) (end 103.505 53.975) (width 1) (layer B.Cu) (net 17))
+  (segment (start 107.565 58.035) (end 103.505 53.975) (width 1) (layer B.Cu) (net 17) (tstamp 5A8C4DE9))
   (segment (start 78.74 83.185) (end 78.74 80.01) (width 1) (layer B.Cu) (net 18))
   (segment (start 100.33 73.66) (end 113.285 60.705) (width 1) (layer B.Cu) (net 18) (tstamp 5A8939DE))
   (segment (start 113.285 60.705) (end 118.11 60.705) (width 1) (layer B.Cu) (net 18) (tstamp 5A8939DF))
